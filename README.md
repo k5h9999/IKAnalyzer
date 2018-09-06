@@ -7,8 +7,8 @@
 //main2012.dic 建筑材料词库
 	public static void main(String[] args) {
 
-		System.out.println(IKAnalzyerUtil.IKAnalyse("钢轨韶钢"));
-		System.out.println(IKAnalzyerUtil.IKBrandAnalyse("钢轨韶钢"));
+		System.out.println(IKAnalzyerUtil.IKAnalyse("钢轨韶钢")); //判断是否包含有材料词
+		System.out.println(IKAnalzyerUtil.IKBrandAnalyse("钢轨韶钢"));//判断出品牌词
 		
 	}
 ```
