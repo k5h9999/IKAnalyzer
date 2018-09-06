@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
+<properties>  
+	<comment>IK Analyzer 扩展配置</comment>
+	<!--用户可以在这里配置自己的扩展字典 -->
+	<entry key="ext_dict">config/ext.dic;config/brand.dic;</entry> 
+	<entry key="brand_dict">config/brand.dic;</entry> 
+	<entry key="addr_dict">config/addr.dic;</entry>
+	<entry key="com_dict">config/com.dic;</entry>
+	<entry key="spec_dict">config/spec.dic;</entry>
+	
+	<entry key="main_dict">org/wltea/analyzerd/dic/main2012.dic;</entry> 
+	
+	<!--用户可以在这里配置自己的扩展停止词字典-->
+	<entry key="ext_stopwords">config/stopword.dic;</entry> 
+	
+	
+</properties>
